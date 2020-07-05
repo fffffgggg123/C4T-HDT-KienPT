@@ -1,0 +1,38 @@
+var a =[1.2,3,4,5]
+a.push(7);
+a.shift();
+a[1]=9;
+console.log(a)
+
+var b = {
+    Name: "linh",
+    age: 22,
+    FavoriteMovie: "Parasite",
+  };
+  ["FavoriteMovie"] ="Joker",
+  console.log(b.FavoriteMovie)
+
+let btnChangeColor = document.getElementById("btn_changecolor");
+btnChangeColor.addEventListener("click",  function(){
+ let pMessage =document.getElementById("message");
+pMessage.style.color ="blue";
+pMessage.textContent ="Have a nice day";
+});
+let htn =document.getElementById("htn_test");
+console.log(htn);
+function Clickme(){
+    alert("Hello JS05");
+}
+htn.addEventListener("click", Clickme);
+
+for(let i = 0 ; i < 100 ; i++){
+   if(i<51)
+     if ((i + 1) % 2 == 0)
+       console.log(i)
+}
+
+var a = [1 ,9, 8, 12, 76, 80, 85, 90]
+for(let i = 0; i < a.length; i++){
+    if (a[i] % 2 == 0)
+       console.log(a[i])
+}
